@@ -26,6 +26,7 @@ render(){
         <div className="container">
             <Table characterData={characters} removeCharacter={this.removeCharacter} />
             <Form handleSubmit={this.handleSubmit} />
+            <h2>Simple Job Form Allocator</h2>
         </div>
     )
 }
